@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Sushiku</string>
+    <string name="register">75 Gram Nasi Pulen</string>
+    <string name="desc1">Sushi seasoning : Rebus Air, gula, dan cuka beras hingga mendidih, Setelah mendidih biarkan selama 5 menit di api kecil.Biarkan agak dingin, masukkan garam, kemudian aduk. Saring lalu simpan dalam botol. (foto sushi seasoning lupa diambil)</string>
+    <string name="desc2">Siapkan nasi, crab stik, wortel dan timun, beri nasi 1sdm sushi seasoning aduk rata</string>
+    <string name="desc3">Siapkan Nori, letakkan nasi diatasnya, ratakan dengan tangan yg sdh dibasahi dengan sedikit air, diujung jari2. Setelah rapi, balik posisi Nori ada di atas. Kemudian beri isian dan gulung</string>
+    <string name="desc4">Potong dan beri toping mayonaise</string>
+    <string name="sele"><u>Selengkapnya mengenai Cooksnapmu</u></string>
+    <string name="sel"><u>Cari tahu apa itu cookbook?</u></string>
+    <string name="user_name">@AdrianP1</string>
+    <string name="move_activity">Ikuti</string>
+    <string name="move_with_data">Pindah Activity dengan Data</string>
+    <string name="move_with_object">Pindah Activity dengan Object</string>
+    <string name="dial_number">Dial a Number</string>
+    <string name="move_with_result">Pindah Activity untuk Result</string>
+    <string name="result_from_activity">Hasil dari Activity</string>
+    <string name="choose_number">Pilih angka yang kamu suka</string>
+    <string name="_50">50</string>
+    <string name="_100">100</string>
+    <string name="_150">150</string>
+    <string name="_200">200</string>
+    <string name="choose">Pilih</string>
+    <string name="data_received">Data Diterima</string>
+    <string name="object_received">Object Diterima</string>
+    <string name="this_is_moveactivity">Ini MoveActivity</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="app_widget_description">This is an app widget description</string>
+
+
+</resources>

@@ -1,0 +1,830 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/warna1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/www">
+            </ImageView>
+
+        </FrameLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/poppinsbold"
+            android:text="Uramaki Sushi homemade"
+            android:textColor="@color/warna2"
+            android:textSize="23sp"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="@dimen/activity_vertical_margin">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profile_image"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:src="@drawable/profil" />
+
+            <TextView
+                android:id="@+id/profile_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="7.5dp"
+                android:layout_toRightOf="@id/profile_image"
+                android:text="Adrian Pramana Wijaya"
+                android:fontFamily="@font/poppinsmedium"
+                android:textColor="@color/warna3" />
+
+            <TextView
+                android:id="@+id/profile_username"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@id/profile_image"
+                android:layout_marginTop="20dp"
+                android:text="@string/user_name"
+                android:textColor="@color/underline" />
+
+            <ImageView
+                android:id="@+id/ic_loc1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_loc1"
+                android:layout_toRightOf="@id/profile_image"
+                android:layout_marginTop="45dp"
+                 />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@id/profile_image"
+                android:layout_marginTop="48dp"
+                android:layout_marginLeft="30dp"
+                android:text="Malang, Jawa Timur, Indonesia"
+                android:fontFamily="@font/poppinsmedium"
+                android:textColor="@color/warna3" />
+
+
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:text="#MasakankuCommunity_Malang
+                   #PecintaMasakanJepang"
+            android:textColor="@color/teal_200"
+            android:fontFamily="@font/poppinsmedium"
+            android:textStyle="bold"
+            android:textSize="17sp" />
+        
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="@dimen/activity_horizontal_margin"
+            android:layout_gravity="center"
+            android:background="@color/underline">
+        </View>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:background="@color/warna1"
+        android:src="@drawable/bawah"></ImageView>
+
+</LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:layout_gravity="center"
+            android:background="@color/underline">
+        </View>
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="1dp"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="5dp"
+            android:background="@android:color/transparent"
+            android:drawableStart="@android:drawable/ic_menu_recent_history"
+            android:drawableLeft="@android:drawable/ic_menu_recent_history"
+            android:drawablePadding="5dp"
+            android:fontFamily="@font/poppinsbold"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text=" 30 Menit"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="@color/warna2"
+            android:textStyle="bold" />
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:text="Bahan-bahan"
+            android:textColor="@color/warna2"
+            android:fontFamily="@font/poppinsmedium"
+            android:textStyle="bold"
+            android:textSize="17sp" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:background="@android:color/transparent"
+            android:drawableStart="@drawable/ic_person1"
+            android:drawableLeft="@drawable/ic_person1"
+            android:drawablePadding="5dp"
+            android:fontFamily="@font/poppinsbold"
+            android:gravity="left"
+            android:padding="5dp"
+            android:text=" 8-9 Orang"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="@color/warna3"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/register"
+            android:layout_marginBottom="3dp"
+            android:fontFamily="@font/poppinsreg"
+            android:textColor="@color/warna3"
+            android:textSize="14sp" />
+        <View
+            android:layout_width="320dp"
+            android:layout_height="2dp"
+            android:layout_gravity="center"
+            android:background="@color/underline">
+        </View>
+
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:text="1/2 Lembar nori"
+            android:fontFamily="@font/poppinsreg"
+            android:textColor="@color/warna3"
+            android:textSize="14sp" />
+        <View
+            android:layout_width="320dp"
+            android:layout_height="2dp"
+            android:layout_gravity="center"
+            android:background="@color/underline">
+        </View>
+
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Sushi Seasoning :"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:fontFamily="@font/poppinsreg"
+            android:textColor="@color/warna3"
+            android:textSize="14sp" />
+        <View
+            android:layout_width="320dp"
+            android:layout_height="2dp"
+            android:layout_gravity="center"
+            android:background="@color/underline">
+        </View>
+
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:text="150ML air"
+            android:fontFamily="@font/poppinsreg"
+            android:textColor="@color/warna3"
+            android:textSize="14sp" />
+        <View
+            android:layout_width="320dp"
+            android:layout_height="2dp"
+            android:layout_gravity="center"
+            android:background="@color/underline">
+        </View>
+
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:text="1-3 Sendok makan gula pasir"
+            android:fontFamily="@font/poppinsreg"
+            android:textColor="@color/warna3"
+            android:textSize="14sp" />
+        <View
+            android:layout_width="320dp"
+            android:layout_height="2dp"
+            android:layout_gravity="center"
+            android:background="@color/underline">
+        </View>
+
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:text="1 Sendok teh garam"
+            android:fontFamily="@font/poppinsreg"
+            android:textColor="@color/warna3"
+            android:textSize="14sp" />
+        <View
+            android:layout_width="320dp"
+            android:layout_height="2dp"
+            android:layout_gravity="center"
+            android:background="@color/underline">
+        </View>
+
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:text="Tikar bambu"
+            android:fontFamily="@font/poppinsreg"
+            android:textColor="@color/warna3"
+            android:textSize="14sp" />
+        <View
+            android:layout_width="320dp"
+            android:layout_height="2dp"
+            android:layout_gravity="center"
+            android:background="@color/underline">
+        </View>
+
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:text="Plastik"
+            android:fontFamily="@font/poppinsreg"
+            android:textColor="@color/warna3"
+            android:textSize="14sp" />
+        <View
+            android:layout_width="320dp"
+            android:layout_height="2dp"
+            android:layout_gravity="center"
+            android:background="@color/underline">
+        </View>
+
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Isian : Crab stik Timun Wortel rebus"
+            android:fontFamily="@font/poppinsreg"
+            android:textColor="@color/warna3"
+            android:textSize="14sp" />
+        <View
+            android:layout_width="320dp"
+            android:layout_height="2dp"
+            android:layout_gravity="center"
+            android:background="@color/underline">
+        </View>
+
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Topping : Mayonaise pedas Wijen hitam/putih"
+            android:fontFamily="@font/poppinsreg"
+            android:textColor="@color/warna3"
+            android:textSize="14sp" />
+
+
+        <View
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_gravity="center"
+            android:background="@color/underline">
+        </View>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:text="Langkah-Langkah"
+            android:textColor="@color/warna2"
+            android:fontFamily="@font/poppinsreg"
+            android:textStyle="bold"
+            android:textSize="17sp" />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></HorizontalScrollView>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></RelativeLayout>
+        <TextView
+            android:id="@+id/cihuy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginStart="1dp"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="5dp"
+            android:background="@android:color/transparent"
+            android:drawableStart="@drawable/ic_no1"
+            android:drawableLeft="@drawable/ic_no1"
+            android:drawablePadding="5dp"
+             />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:fontFamily="@font/poppinsreg"
+            android:text="@string/desc1"
+            android:textColor="@color/warna3"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:background="@color/warna1"
+            android:src="@drawable/foto1"></ImageView>
+
+
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="5dp"
+            android:background="@android:color/transparent"
+            android:drawableStart="@drawable/ic_no2"
+            android:drawableLeft="@drawable/ic_no2"
+            android:drawablePadding="5dp"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+
+        <TextView
+            android:id="@+id/descc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:fontFamily="@font/poppinsreg"
+            android:text="@string/desc2"
+            android:textColor="@color/warna3"
+            android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/fotoo"
+                android:layout_below="@id/descc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:background="@color/warna1"
+                android:src="@drawable/foto2"></ImageView>
+
+
+
+
+    </RelativeLayout>
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="5dp"
+            android:background="@android:color/transparent"
+            android:drawableStart="@drawable/ic_no3"
+            android:drawableLeft="@drawable/ic_no3"
+            android:drawablePadding="5dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:fontFamily="@font/poppinsreg"
+            android:text="@string/desc3"
+            android:textColor="@color/warna3"
+            android:textSize="14sp" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginStart="1dp"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:background="@android:color/transparent"
+            android:drawableStart="@drawable/ic_no4"
+            android:drawableLeft="@drawable/ic_no4"
+            android:drawablePadding="5dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="@dimen/activity_horizontal_margin"
+            android:fontFamily="@font/poppinsreg"
+            android:text="@string/desc4"
+            android:textColor="@color/warna3"
+            android:textSize="14sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="@dimen/activity_horizontal_margin"
+            android:layout_gravity="center"
+            android:background="@color/underline">
+        </View>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:background="@color/warna1"
+            android:src="@drawable/w"></ImageView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:layout_gravity="center"
+            android:background="@color/underline">
+        </View>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_imag"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_gravity="center"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:src="@drawable/profil" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:fontFamily="@font/poppinsreg"
+            android:text="Diterbitkan oleh"
+            android:textColor="@color/warna2"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:fontFamily="@font/poppinsmedium"
+            android:text="Adrian Pramana Wijaya"
+            android:textColor="@android:color/white"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:fontFamily="@font/poppinsreg"
+            android:text="pada 3 Februari 2023"
+            android:textColor="@color/warna2"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btn_move_activity"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:text="@string/move_activity" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:text=" Ananda Afriezta Eka K.P dan pengguna lainnya....."
+            android:textColor="@color/white"
+            android:fontFamily="@font/poppinsreg"
+            android:textStyle="bold"
+            android:textSize="13sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:layout_gravity="center"
+            android:background="@color/underline">
+        </View>
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:background="@android:color/transparent"
+            android:drawableStart="@drawable/ic_poto1"
+            android:drawableLeft="@android:drawable/ic_menu_myplaces"
+            android:drawablePadding="5dp"
+            android:fontFamily="@font/poppinsbold"
+            android:gravity="left"
+            android:padding="5dp"
+            android:text=" Cooksnap"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="@color/warna2"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="222dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_weight="1"
+            android:fontFamily="@font/poppinsreg"
+            android:text="Apakah kamu sudah membuat resep ini?
+Bagikan foto hasil kreasimu"
+            android:textColor="@color/warna3"
+            android:textSize="14sp" />
+
+        <Button
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:text="Bagikan foto Cooksnapmu"
+            android:fontFamily="@font/poppinsreg"
+            android:layout_gravity="center"
+            android:id="@+id/btn_share">
+
+        </Button>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_weight="1"
+            android:fontFamily="@font/poppinsreg"
+            android:text="@string/sele"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:layout_gravity="center"
+            android:background="@color/underline">
+        </View>
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:background="@android:color/transparent"
+            android:drawableStart="@drawable/ic_buku1"
+            android:drawableLeft="@drawable/ic_buku1"
+            android:drawablePadding="5dp"
+            android:fontFamily="@font/poppinsbold"
+            android:gravity="left"
+            android:padding="5dp"
+            android:text=" Cookbook Terkait"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="@color/warna2"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="222dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_weight="1"
+            android:fontFamily="@font/poppinsreg"
+            android:text="Belum ada Cookbook yang menyertakan resep ini. Jadilah yang pertama menambahkannya!"
+            android:textColor="@color/warna3"
+            android:textSize="14sp" />
+
+        <Button
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:text="Tambahkan ke Cookbookmu"
+            android:fontFamily="@font/poppinsreg"
+            android:layout_gravity="center"
+            android:id="@+id/btn_add">>
+
+        </Button>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_weight="1"
+            android:fontFamily="@font/poppinsreg"
+            android:text="@string/sel"
+            android:textColor="@android:color/white"
+            android:textSize="14sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:layout_gravity="center"
+            android:background="@color/underline">
+        </View>
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:background="@android:color/transparent"
+            android:drawableStart="@drawable/ic_coment"
+            android:drawableLeft="@drawable/ic_coment"
+            android:drawablePadding="5dp"
+            android:fontFamily="@font/poppinsbold"
+            android:gravity="left"
+            android:padding="5dp"
+            android:text=" Komentar"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="@color/warna2"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_ima"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="16dp"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:src="@drawable/profil" />
+
+        <EditText
+            android:layout_width="280dp"
+            android:layout_height="48dp"
+            android:layout_toRightOf="@id/profile_ima"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:text="    Berikan Komentar..."
+            android:textSize="15dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppinsreg"
+            android:background="@drawable/rounded_edittext"/>
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:layout_gravity="center"
+            android:background="@color/underline">
+        </View>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_weight="1"
+            android:fontFamily="@font/poppinsbold"
+            android:text="Made With ❤️ by Adrian Pramana Wijaya"
+            android:textColor="@android:color/white"
+            android:textSize="14sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:layout_gravity="center"
+            android:background="@color/underline">
+        </View>
+
+
+
+    </LinearLayout>
+</ScrollView>
